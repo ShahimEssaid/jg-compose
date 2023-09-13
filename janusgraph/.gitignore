@@ -1,0 +1,11 @@
+/volume/.m2/
+/volume/boot/logs/
+/volume/boot/.mvn/
+/volume/boot/bin/
+/volume/boot/config/
+/volume/boot/lib/
+/volume/boot/logs/
+/volume/boot/run/
+/volume/boot/target/
+/volume/boot/mvnw
+/volume/boot/mvnw.cmd

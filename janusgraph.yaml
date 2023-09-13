@@ -1,0 +1,13 @@
+services:
+  janusgraph:
+    build:
+      context: janusgraph/build/context
+      args:
+        USER_UID: ${USER_UID:?err}
+        USER_GID: ${USER_GID:?err}
+    stop_grace_period: 60s
+    user: ${USER_UID:?err}:${USER_GID:?err}
+    volumes:
+      - type: bind
+        source: janusgraph/volume
+        target: /janusgraph

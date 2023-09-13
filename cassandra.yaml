@@ -1,0 +1,5 @@
+services:
+  cassandra:
+    build:
+      context: cassandra/build/context
+    stop_grace_period: 60s

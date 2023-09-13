@@ -1,0 +1,4 @@
+services:
+  elastic:
+    build:
+      context: elastic/build/context
